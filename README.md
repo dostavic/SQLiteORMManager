@@ -1,4 +1,4 @@
-# PySpin
+# SQLite Persistence Manager
 
 ## Overview
 The SQLite Persistence Manager project provides a simple yet powerful implementation for managing persistence of data 
