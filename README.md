@@ -63,8 +63,8 @@ public class Main {
                                                      .orElseThrow(() -> new RuntimeException("Department not found"));
             
             System.out.println("Department: " + department.getName());
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
     }
 }
